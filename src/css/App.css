@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Open+Sans:wght@800&family=Palanquin+Dark:wght@700&family=Raleway:wght@900&family=Roboto:wght@300;400&family=Secular+One&display=swap');
+
+
+.App {
+  text-align: center;
+  
+  
+}
+
+header{
+  background-color: #000000;
+  /* min-height: 60px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  top: 0;
+  z-index: 1000000;
+  font-family: 'Kanit', sans-serif;
+  color: #fff;
+}
+nav p{
+  font-weight: bold;
+  font-size: 20px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+nav ul li{
+  list-style: none;
+}
+
+
+.textFields{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.data{
+  margin-top: 40px;
+  font-family: 'Kanit', sans-serif;
+
+  
+}
+.data_val{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #dfe6e9;
+  padding: 0 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 10px;
+
+}
